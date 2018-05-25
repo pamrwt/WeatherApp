@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:panelFullBackground="@drawable/curve"
+
+            android:alpha="0.7"
+            android:id="@+id/nav_add"
+            android:icon="@drawable/add"
+            android:title="Add City"
+            />
+        <item
+            android:panelFullBackground="@drawable/curve"
+
+            android:alpha="0.7"
+            android:id="@+id/nav_List"
+            android:icon="@drawable/list"
+            android:title="Add City"
+            />
+        <item
+            android:panelFullBackground="@drawable/curve"
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/thermometer"
+            android:title="Temperature"
+            app:actionLayout="@layout/menu_switch"/>
+        <item
+            android:panelFullBackground="@drawable/curve"
+            android:id="@+id/nav_wind"
+            android:icon="@drawable/ac"
+            android:title="Wind"
+            app:actionLayout="@layout/menu_wind"/>
+        <item
+            android:panelFullBackground="@drawable/curve"
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/eye"
+            android:title="Visibility"
+            app:actionLayout="@layout/menu_visibility"/>
+        <item
+            android:panelFullBackground="@drawable/curve"
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/gauge"
+            android:title="Pressure"
+
+            app:actionLayout="@layout/menu_pressure"/>
+        <item
+            android:panelFullBackground="@drawable/curve"
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share"
+            />
+
+    </group>
+</menu>

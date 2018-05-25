@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#051770</color>
+    <color name="colorPrimaryDark">#061976</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBackground">#0f217c</color>
+    <color name="colorCircleStroke">#df9502</color>
+    <color name="colorSubTitle">#ffff</color>
+    <color name="skyBlue">#87CEEB</color>
+    <color name="actionbar_opacity">#33000000</color>
+    <color name="toolbarTransparent">#00FFFFFF</color>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    android:layout_marginTop="10dp"
+    android:alpha="0.7"
+    android:background="@color/colorBackground"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="@color/colorBackground"
+
+        android:id="@+id/radio_button_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/delete_button_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/city_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/city_country"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+
+            android:id="@+id/temp_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/temp_information"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+        <ImageView
+           android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/bin"
+            android:id="@+id/delete_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_22sdp"
+
+            android:gravity="center"
+            android:layout_gravity="right"
+          />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

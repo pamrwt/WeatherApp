@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/add"
+            android:title="Add City" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/thermometer"
+            android:title="Temperature" />
+        <item
+            android:id="@+id/nav_wind"
+            android:icon="@drawable/ac"
+            android:title="Wind" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/eye"
+            android:title="Visibility" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/gauge"
+            android:title="Pressure" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/settings"
+            android:title="Share" />
+
+    </group>
+
+
+
+</menu>

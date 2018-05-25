@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    tools:context="com.web114.weatherapp.WeatherActivity"
+    tools:showIn="@layout/app_bar_weather2">
+
+
+
+
+
+    </ScrollView>
